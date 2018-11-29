@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <link rel="stylesheet" href="styles/fonts.css" />
+        <link rel="stylesheet" href="styles/bloko.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <title></title>
+    </head>
+    <body>
+        <div class="modal-wrapper">
+            <div class="modal">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-info-item__icon">
+                            <span class="bloko-icon bloko-icon_change-position bloko-icon_initial-inverted"></span>
+                        </div>
+
+                        <div class="contact-info-item__content">
+                            <div class="contact-info-item__title">Адрес</div>
+                            <div class="contact-info-item__text">
+                                Москва, Годовикова 9/10
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-item__icon">
+                            <span class="bloko-icon bloko-icon_phone bloko-icon_initial-inverted"></span>
+                        </div>
+
+                        <div class="contact-info-item__content">
+                            <div class="contact-info-item__title">
+                                Давайте поговорим
+                            </div>
+                            <a href="tel:+78001236879" class="contact-info-item__link">
+                                +7 800 1236879
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-item__icon">
+                            <span class="bloko-icon bloko-icon_mail-outline bloko-icon_initial-inverted"></span>
+                        </div>
+
+                        <div class="contact-info-item__content">
+                            <div class="contact-info-item__title">
+                                Служба поддержки
+                            </div>
+                            <a href="mailto:support@example.com" class="contact-info-item__link">
+                                support@example.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h2 class="contact-form__title">Напишите нам сообщение</h2>
+                    <div class="contact-form__field-wrapper">
+                        <label class="contact-form__field-label" for="contact-form__firstname">
+                            Укажите фамилию и имя
+                        </label>
+                        <div class="row">
+                            <div class="focused-field col">
+                                <input
+                                    type="text"
+                                    id="contact-form__firstname"
+                                    class="contact-form__field contact-form__input focused-field__field"
+                                    name="firstname"
+                                    placeholder="Имя" />
+                                <span class="focused-field__border"></span>
+                            </div>
+                            <div class="focused-field col">
+                                <input
+                                    type="text"
+                                    id="contact-form__lastname"
+                                    class="contact-form__field contact-form__input focused-field__field"
+                                    name="lastname"
+                                    placeholder="Фамилия" />
+                                <span class="focused-field__border"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form__field-wrapper">
+                        <label class="contact-form__field-label" for="contact-form__mail">
+                            Адрес электронной почты
+                        </label>
+                        <div class="contact-form__field-wrapper focused-field">
+                            <input
+                                type="email"
+                                id="contact-form__mail"
+                                class="contact-form__field contact-form__input focused-field__field"
+                                name="mail"
+                                placeholder="example@example.com" />
+                            <span class="focused-field__border"></span>
+                        </div>
+                    </div>
+                    <div class="contact-form__field-wrapper">
+                        <label class="contact-form__field-label" for="contact-form__phone">
+                            Номер телефона
+                        </label>
+                        <div class="contact-form__field-wrapper focused-field">
+                            <input
+                                type="text"
+                                id="contact-form__phone"
+                                class="contact-form__field contact-form__input focused-field__field"
+                                name="phone"
+                                placeholder="+7 800 000000" />
+                            <span class="focused-field__border"></span>
+                        </div>
+                    </div>
+                    <div class="contact-form__field-wrapper">
+                        <label class="contact-form__field-label" for="contact-form__message">
+                            Сообщение
+                        </label>
+                        <div class="contact-form__field-wrapper focused-field">
+                            <input
+                                id="contact-form__message"
+                                type="text"
+                                class="contact-form__field contact-form__input focused-field__field"
+                                name="message" />
+                            <span class="focused-field__border"></span>
+                        </div>
+                    </div>
+                    <button class="contact-form__send-button">
+                        Отправить сообщение
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

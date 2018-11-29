@@ -1,0 +1,9 @@
+/* fonts */
+@font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: PoppinsRegular;
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+}
