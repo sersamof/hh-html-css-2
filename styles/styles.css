@@ -7,9 +7,10 @@
 /* structure */
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
-.col {
-    flex: 50%;
+.col-sm-2 {
+    flex: 100%;
 }
 
 
@@ -166,6 +167,9 @@
 @media (min-width: 576px) {
     .contact-form {
         padding: 55px 30px;
+    }
+    .col-sm-2 {
+        flex: 50%;
     }
 }
 
